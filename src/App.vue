@@ -76,6 +76,7 @@ import Header from './components/layout/Header.vue';
 import Footer from './components/layout/Footer.vue';
 import Mission from './components/Mission.vue';
 import Pilot from './components/Pilot.vue';
+import Sidebar from './components/Sidebar.vue';
 import Markdown from 'vue3-markdown-it';
 
 export default {
@@ -84,6 +85,7 @@ export default {
     Footer,
     Mission,
     Pilot,
+    Sidebar,
     Markdown
   },
 
