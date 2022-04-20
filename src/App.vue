@@ -1,6 +1,6 @@
 <template>
   <Header :header="this.header" />
-  <div class="content-container">
+  <!-- <div class="content-container">
     <section class="section-container" id="missions" style="width:435px; height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/mission-icon.svg" />
@@ -67,8 +67,9 @@
   </svg>
   <audio autoplay>
     <source src="/startup.ogg" type="audio/ogg" />
-  </audio>
+  </audio> -->
   <Footer/>
+  <Sidebar/>
 </template>
 
 <script>
